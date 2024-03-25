@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFF;
+    width: 100%;
+    box-shadow: 0 0 10px #CCC; 
+    
+}
+
+.imagem {
+    width: 300px;
+    height: auto;
+
+}
+.centro {
+    width: 1000px;
+    margin: auto;
+
+}
+
+body {
+    font-family: Arial, Verdana;
+    font-size: 20px;
+}
+
+h2 {
+    text-align:center;
+    text-transform:uppercase;
+    font-size: 32px;
+}
+
+#sobre-mim {
+    background-color: #F1F1F1;
+    
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+p{
+    padding-top:30px;
+}
+
+#contato {
+    background-color: #F1F1F1;
+}
+
+input, textarea
+{
+    width:100%;
+    border: 1px solid #CCC;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom:10px;
+
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+button {
+    background-color:greenyellow;
+    padding:10px;
+    border:0;
+    margin-top: 10px;
+}
