@@ -4,9 +4,9 @@
 }
 
 header {
-    background-color: #FFF;
+    background-color: #020111;
     width: 100%;
-    box-shadow: 0 0 10px #CCC; 
+    box-shadow: 0 0 5px #CCC; 
     
 }
 
@@ -33,7 +33,7 @@ h2 {
 }
 
 #sobre-mim {
-    background-color: #F1F1F1;
+    background-color: #020111;  
     
 }
 
@@ -43,12 +43,12 @@ section {
 
 }
 
-p{
+p {
     padding-top:30px;
 }
 
 #contato {
-    background-color: #F1F1F1;
+    background-color: #020111;
 }
 
 input, textarea
@@ -66,6 +66,7 @@ label {
     font-weight: bold;
     margin-bottom: 10px;
     display: block;
+    font-size:15px;
 }
 
 button {
@@ -74,3 +75,43 @@ button {
     border:0;
     margin-top: 10px;
 }
+
+#entreemcontato {
+    font-size:16px;
+}
+
+#minhadescricao {
+    display: inline-block;
+    font-size: 30px;
+    text-align:left;
+}
+
+#minhafoto {
+    display:inline-block;
+    width: 500px;
+    height: 400px;
+    border-radius:15px;
+    box-shadow:   0 0 10px rgb(215, 137, 223);
+
+    }
+
+.container {
+    display: flex;
+   
+}
+
+.container #minhafoto {
+    margin-right:100px;
+}
+
+#titulosobremim { 
+margin-bottom: 40px;
+text-shadow: #aa29bb;
+}
+
+body {
+    background-color: #282A3E;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+}
+
